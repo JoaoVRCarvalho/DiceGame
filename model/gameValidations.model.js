@@ -2,7 +2,7 @@
 let winner;
 
 function verifyPlayerScore(player, scores) {
-    if(scores[player] >= 15 ) {
+    if(scores[player] >= 50 ) {
         switch (player) {
             case 0:
                 player0Class[0].classList.add("player--winner");
